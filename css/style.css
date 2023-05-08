@@ -50,3 +50,76 @@ table {
 
 
 /* Write your css below here */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(12 60 101);
+    margin-left: 20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.container {
+    width: 100vw;
+    background-color: #f7f7f7;
+    display: flex;
+}
+
+header{
+    background-color: #e6e2e2;
+    margin: auto;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+}
+
+nav{
+    display: flex;
+    width: 400px;
+    margin: auto;
+    align-items: center;
+}
+
+nav a{padding-top: 10px;
+    flex: 1;
+    text-decoration: none;
+    color: rgb(12 60 101);
+}
+
+a:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+
+.main {
+    width: 800px;
+    background-color: #f7f7f7;
+    margin-left: 20%;
+}
+
+.side {
+    background-color: #e6e2e2;
+    top: 0;
+    width: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+}
+
+footer {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    height: 10%;
+    background-color: #d8d5d5;
+    text-align: center;
+
+}
+
+footer span{
+    margin: 2px;
+}
